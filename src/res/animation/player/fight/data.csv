@@ -1,0 +1,8 @@
+IdleState_down,1
+IdleState_left,4
+IdleState_right,7
+IdleState_up,10
+RunState_down,0,1,2
+RunState_left,3,4,5
+RunState_right,6,7,8
+RunState_up,9,10,11

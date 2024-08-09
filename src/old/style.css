@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.app {
+  position: relative;
+}
+
+.website-scene {
+
+}
+
+.website-scene-canvas {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  background-color: magenta;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-header {
+  position: absolute;
+  z-index: 2;
+  background-color: transparent;
+  font-size: calc(10px + 2vmin);
+  /*color: #333333;*/
+  color: #00FF00;
+  text-shadow: 2px 2px #ff0000;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.game {
+  position: absolute;
+  z-index: 3;
+  left: 7.5vw;
+  top: 7.5vh;
+  background-color: green;
+}
+
+.canvas {
+  background-color: green;
+}
+
+/*.ui {*/
+/*  position: absolute;*/
+/*  width: 100vw;*/
+/*  height: 100vh;*/
+/*  z-index: 1;*/
+/*  display: grid;*/
+/*  grid-template-columns: 1fr 2fr 2fr 1fr;*/
+/*  grid-template-rows: 1fr 1fr 1fr;*/
+/*  grid-template-areas:*/
+/*          "c0r0 c1r0 c2r0 c3r0"*/
+/*          "c0r1 c1r1 c2r1 c3r1"*/
+/*          "c0r2 c1r2 c2r2 c3r2";*/
+/*  pointer-events: none;*/
+/*}*/
+
+/*.menu {*/
+/*  position: absolute;*/
+/*  width: 100vw;*/
+/*  height: 100vh;*/
+/*  z-index: 2;*/
+/*  !*display: grid;*!*/
+/*  !*pointer-events: none;*!*/
+/*}*/
